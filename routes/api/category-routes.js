@@ -27,7 +27,7 @@ router.get('/:id', (req, res) => {
     });
 
     if (!categoryData) {
-      res.status(404).json({ message:'No Category Data found with this id!'});
+      res.status(404).json({ message:'No Category Data found with this id!' });
       return;
     }
 
